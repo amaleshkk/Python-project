@@ -1,13 +1,17 @@
-student_score = input("Enter the student scores: ").split(", ")
+student_score = input("Enter the student scores: ").split()
 for n in range(0, len(student_score)):
     student_score[n] = int(student_score[n])
 
 high_score = 0
 
-for score in range(0, len(student_score)):
-    if high_score < student_score[score]:
-        high_score = student_score[score]
-    else:
-        pass
+# for score in range(0, len(student_score)):
+#     if high_score < student_score[score]:
+#         high_score = student_score[score]
+#     else:
+#         pass
     
+for score in student_score:
+    if high_score < score:
+        high_score = score
+
 print(f"The highest score in the class is: {high_score}")
