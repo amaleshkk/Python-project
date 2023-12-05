@@ -48,5 +48,3 @@ for char in password:
     generated_password += char
 
 print(f"Your passsword is: \n {generated_password}")
-
-
