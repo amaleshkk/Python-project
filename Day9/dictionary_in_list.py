@@ -25,4 +25,4 @@ def add_new_country(country, visits, cities_visited):
 add_new_country(country, visits, list_of_cities)
 
 print(travel_log)
-print(f'{travel_log[2]["country"]} visits: {travel_log[2]["visits"]} places: {travel_log[2]["cities"]}')
+print(f'{travel_log[2]["country"]} visits: {travel_log[2]["visits"]} places: {travel_log[2]["cities"][1]}')
