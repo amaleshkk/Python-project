@@ -1,4 +1,6 @@
 def format_name(f_name, l_name):
+    """ Take the first and last name and format it 
+    to return the title case version of the name"""
     # print(f_name.title())
     # print(l_name.title())
     formated_f_name = f_name.title()
