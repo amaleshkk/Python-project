@@ -4,18 +4,27 @@ import random
 tim = Turtle()
 tim.shape('turtle')
 tim.color('green')
-tim.speed(2)
+# tim.speed(2)
 
 colours = ["CornFlowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "Wheat", "SlateGrey", "SeaGreen"]
 
 # tim.up()
 
-for num_sides in range(3, 11): 
-    tim.color(random.choice(colours))
+# for num_sides in range(3, 11):
+#     tim.color(random.choice(colours))
+#     for _ in range(num_sides):
+#         angle = 360 / num_sides
+#         tim.forward(100)
+#         tim.right(angle)
+
+def draw_shape(num_sides):
+    angle = 360 / num_sides
     for _ in range(num_sides):
-        angle = 360 / num_sides
         tim.forward(100)
         tim.right(angle)
+
+for shape_side_n in range(3, 11):
+    draw_shape(shape_side_n)
 
 # tim.circle(100)
 
