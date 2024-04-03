@@ -1,0 +1,21 @@
+h1{
+    color: green;
+}
+
+/* class selector */
+
+.red-text{
+    color: red;
+}
+.blue-text{
+    color: blue;
+}
+.green-text{
+    color: green;
+}
+
+/* id selector */
+
+#main{
+    color: purple;
+}
