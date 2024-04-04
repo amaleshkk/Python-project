@@ -19,3 +19,19 @@ h1{
 #main{
     color: purple;
 }
+
+/* Attribute selector */
+
+p[draggable=false]{
+    color:cornflowerblue
+}
+
+/* h1[draggable=true]{
+    color: aqua;
+} */
+
+/* Universal selector */
+
+*{
+    color:blueviolet;
+}
